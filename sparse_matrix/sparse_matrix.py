@@ -126,11 +126,11 @@ class SparseMatrix {
 function main() {
     try {
         // Load matrices from files
-        const matrix1 = new SparseMatrix('matrix1.txt');
-        const matrix2 = new SparseMatrix('matrix2.txt');
+        const matrix1 = new SparseMatrix('matrixfile1.txt');
+        const matrix2 = new SparseMatrix('matrixfile3.txt');
 
         // Perform operations
-        const addResult = matrix1.add(matrix2);
+        const addResult = matrix1.add(matrix3);
         const subtractResult = matrix1.subtract(matrix2);
         const multiplyResult = matrix1.multiply(matrix2);
 
