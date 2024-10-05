@@ -127,10 +127,10 @@ function main() {
     try {
         // Load matrices from files
         const matrix1 = new SparseMatrix('matrixfile1.txt');
-        const matrix2 = new SparseMatrix('matrixfile3.txt');
+        const matrix2 = new SparseMatrix('matrixfile2.txt');
 
         // Perform operations
-        const addResult = matrix1.add(matrix3);
+        const addResult = matrix1.add(matrix2);
         const subtractResult = matrix1.subtract(matrix2);
         const multiplyResult = matrix1.multiply(matrix2);
 
