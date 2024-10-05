@@ -31,3 +31,7 @@ cols=3180
 (0, 639, 857)
 (0, 165, -933)
 (0, 1350, -89)
+
+First Line: Indicates the total number of rows in the matrix.
+Second Line: Indicates the total number of columns in the matrix.
+Subsequent Lines: Each line specifies a non-zero element in the matrix in the format (row, column, value).
